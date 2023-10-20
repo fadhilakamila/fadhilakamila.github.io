@@ -2,6 +2,37 @@
     font-weight: 500;
 }
 
-.carousel-height {
-    height: 100px;
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+.carousel-img {
+display: block;
+width: 100%;
+height: auto;
 }
+
+.overlay {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.4); /* Warna hitam dengan tingkat transparansi 0.5 (50%) */
+pointer-events: none; /* Membuat overlay tidak menghalangi interaksi mouse */
+}
+
+.read-more-carousel a {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    transition: 0.4s;
+  }
+  
+.read-more-carousel a:hover {
+text-decoration: underline;
+}
+
+  
