@@ -149,8 +149,8 @@ h6 {
   color: #b8241c;
 }
 
-.navbar .getstarted,
-.navbar .getstarted:focus {
+.navbar .mulai,
+.navbar .mulai:focus {
   background: #b8241c;
   padding: 8px 25px;
   margin-left: 30px;
@@ -158,10 +158,10 @@ h6 {
   color: #fff;
 }
 
-.navbar .getstarted:hover,
-.navbar .getstarted:focus:hover {
-  color: #fff;
-  background: #b8241c;
+.navbar .mulai:hover,
+.navbar .mulai:focus:hover {
+  color: #b8241c;;
+  background: #e2e2e2;
 }
 
 /**
@@ -235,8 +235,8 @@ h6 {
   color: black;
 }
 
-.navbar-mobile .getstarted,
-.navbar-mobile .getstarted:focus {
+.navbar-mobile .mulai,
+.navbar-mobile .mulai:focus {
   margin: 15px;
 }
 
@@ -263,7 +263,7 @@ h6 {
   font-size: 24px;
 }
 
-#hero .btn-get-started {
+#hero .btn-mulai {
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -276,7 +276,7 @@ h6 {
   border: 2px solid #b8241c;
 }
 
-#hero .btn-get-started:hover {
+#hero .btn-mulai:hover {
   background: #b8241c;
   color: #fff;
 }
@@ -393,7 +393,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# About Us
+# Tentang KPI
 --------------------------------------------------------------*/
 .about .content h3 {
   font-weight: 600;
@@ -450,9 +450,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# Layanan Aplikasi
 --------------------------------------------------------------*/
-.services .icon-box {
+.layanan-aplikasi .icon-box {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -463,7 +463,7 @@ section {
   z-index: 1;
 }
 
-.services .icon-box::before {
+.layanan-aplikasi .icon-box::before {
   content: "";
   position: absolute;
   background: rgb(226, 226, 226);
@@ -476,7 +476,7 @@ section {
   z-index: -1;
 }
 
-.services .icon-box:hover::before {
+.layanan-aplikasi .icon-box:hover::before {
   background: #b8241c;
   right: 0;
   top: 0;
@@ -485,7 +485,7 @@ section {
   border-radius: 0px;
 }
 
-.services .icon {
+.layanan-aplikasi .icon {
   margin: 0 auto 20px auto;
   padding-top: 10px;
   display: inline-block;
@@ -497,38 +497,38 @@ section {
   transition: all 0.3s ease-in-out;
 }
 
-.services .icon i {
+.layanan-aplikasi .icon i {
   font-size: 36px;
   line-height: 1;
   color: #fff;
 }
 
-.services .title {
+.layanan-aplikasi .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
 
-.services .title a {
+.layanan-aplikasi .title a {
   color: #111;
 }
 
-.services .description {
+.layanan-aplikasi .description {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
 }
 
-.services .icon-box:hover .title a,
-.services .icon-box:hover .description {
+.layanan-aplikasi .icon-box:hover .title a,
+.layanan-aplikasi .icon-box:hover .description {
   color: #fff;
 }
 
-.services .icon-box:hover .icon {
+.layanan-aplikasi .icon-box:hover .icon {
   background: #fff;
 }
 
-.services .icon-box:hover .icon i {
+.layanan-aplikasi .icon-box:hover .icon i {
   color: #b8241c;
 }
 
@@ -605,6 +605,7 @@ section {
   padding: 20px;
   background: #f6f6f6;
   transition: ease-in-out 0.3s;
+  border-radius: 5px;
 }
 
 .regulasi .icon-box i {
@@ -631,13 +632,13 @@ section {
 }
 
 .regulasi .icon-box:hover {
-  background: #e6e6e6;
+  background: #e3e2e2;
 }
 
 /*--------------------------------------------------------------
-# Contact
+# Kontak
 --------------------------------------------------------------*/
-.contact .contact-about h3 {
+.kontak .kontak-about h3 {
   font-size: 28px;
   margin: 0 0 10px 0;
   padding: 0;
@@ -647,18 +648,18 @@ section {
   color: #222222;
 }
 
-.contact .contact-about p {
+.kontak .kontak-about p {
   font-size: 14px;
   line-height: 24px;
   font-family: "Raleway", sans-serif;
   color: #888;
 }
 
-.contact .social-links {
+.kontak .social-links {
   padding-bottom: 20px;
 }
 
-.contact .social-links a {
+.kontak .social-links a {
   font-size: 18px;
   display: inline-block;
   background: #fff;
@@ -674,29 +675,29 @@ section {
   border: 1px solid #b8241c;
 }
 
-.contact .social-links a:hover {
+.kontak .social-links a:hover {
   background: #b8241c;
   color: #fff;
 }
 
-.contact .info {
+.kontak .info {
   color: #444444;
 }
 
-.contact .info i {
+.kontak .info i {
   font-size: 32px;
   color: #b8241c;
   float: left;
   line-height: 1;
 }
 
-.contact .info p {
+.kontak .info p {
   padding: 0 0 10px 42px;
   line-height: 28px;
   font-size: 14px;
 }
 
-.contact .php-email-form .error-message {
+.kontak .form-style .error-message {
   display: none;
   color: #fff;
   background: #ed3c0d;
@@ -705,11 +706,11 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .error-message br+br {
+.kontak .form-style .error-message br+br {
   margin-top: 25px;
 }
 
-.contact .php-email-form .sent-message {
+.kontak .form-style .sent-message {
   display: none;
   color: #fff;
   background: #18d26e;
@@ -718,14 +719,14 @@ section {
   font-weight: 600;
 }
 
-.contact .php-email-form .loading {
+.kontak .form-style .loading {
   display: none;
   background: #fff;
   text-align: center;
   padding: 15px;
 }
 
-.contact .php-email-form .loading:before {
+.kontak .form-style .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -737,24 +738,24 @@ section {
   animation: animate-loading 1s linear infinite;
 }
 
-.contact .php-email-form .form-group {
+.kontak .form-style .form-group {
   margin-bottom: 20px;
 }
 
-.contact .php-email-form input,
-.contact .php-email-form textarea {
-  border-radius: 0;
+.kontak .form-style input,
+.kontak .form-style textarea {
+  border-radius: 5px;
   box-shadow: none;
   font-size: 14px;
   padding: 10px 15px;
 }
 
-.contact .php-email-form input:focus,
-.contact .php-email-form textarea:focus {
+.kontak .form-style input:focus,
+.kontak .form-style textarea:focus {
   border-color: #b8241c;
 }
 
-.contact .php-email-form button[type=submit] {
+.kontak .form-style button[type=submit] {
   background: #b8241c;
   border: 0;
   padding: 10px 24px;
@@ -763,7 +764,7 @@ section {
   border-radius: 50px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.kontak .form-style button[type=submit]:hover {
   background: black;
 }
 
