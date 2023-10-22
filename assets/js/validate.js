@@ -47,7 +47,7 @@ function validateForm() {
     }
     
     // 6. Message tidak boleh lebih dari 250 karakter
-    if (message.value.length > 500) {
+    if (message.value.length > 250) {
       message.focus();
       msgMessage.innerHTML = "Pesan tidak boleh lebih dari 250 karakter!";
       return false;
